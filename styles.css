@@ -5,18 +5,15 @@ body, html {
   }
 
 .navbar {
+    border-bottom: 3px solid black;
     zoom: 1.4;
 }
 
-.links-container {
+.main-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-}
-
-.links-container .list-group { 
-    max-width: 600px; 
+    height: calc(100% - 200px);
 }
 
 .list-group-item {
@@ -25,17 +22,25 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    zoom: 2;
+    zoom: 2.5;
 }
 
 .text-block-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90%;
+    height: 80%;
     font-size: 30px;
 }
 
 h1 {
     font-size: 65px;
+}
+
+.move-right {
+    margin-left: 50px;
+}
+
+.btn-border {
+    border: 1.5px solid black;
 }
